@@ -1,0 +1,29 @@
+.row {
+  margin-right: 0px;
+  margin-left: 0px
+}
+
+
+.img__wrap {
+  position: relative;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 23px;
+  left: 0;
+  right: 0;
+  background-color: rgba(19, 100, 206, 0.158);
+  color:black;
+  margin-top: 0;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
