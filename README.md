@@ -1,7 +1,7 @@
   Backend
 
   Installation
-    Démarrez npm install puis vous devez créer un fichier .env dans le dossier backend du projet     et y renseigner les champs suivants :
+    Démarrez npm install puis vous devez créer un fichier .env dans le dossier backend du projet et y renseigner les champs suivants :
         DATABASE = le nom de la base de données souhaité
         DATABASE_HOST = le host souhaité (ex : localhost)
         DATABASE_PASSWORD = le mot de passe utilisateur de votre admin MySQL
