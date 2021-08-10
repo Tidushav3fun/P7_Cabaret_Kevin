@@ -1,0 +1,16 @@
+.profile-head {
+  transform: translateY(5rem)
+}
+
+.cover {
+  background-image: url('../../images/background-company-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  button {
+    &:hover{
+      opacity: 0.8;
+      transition: all ease-in-out 200ms ;
+    }
+  }
+}
