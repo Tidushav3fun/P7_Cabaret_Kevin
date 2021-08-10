@@ -1,0 +1,12 @@
+body {
+  background-color: aqua;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
