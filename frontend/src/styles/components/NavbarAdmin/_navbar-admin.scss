@@ -1,0 +1,11 @@
+.admin-navbar {
+  &-div{
+    display: flex;
+    justify-content: center;
+    &-list{
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 0;
+    }
+  }
+}

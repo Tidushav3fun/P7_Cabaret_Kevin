@@ -1,0 +1,13 @@
+.container-upload {
+  display: flex;
+}
+
+.container-scroll {
+  height: 500px;
+  position: relative;
+  &-div {
+    max-height: 100%;
+    overflow: auto;
+  }
+}
+

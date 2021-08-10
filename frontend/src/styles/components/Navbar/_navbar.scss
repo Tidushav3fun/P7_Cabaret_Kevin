@@ -1,0 +1,72 @@
+.navbar-groupomania {
+  margin-bottom: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  &-brand {
+    color: white;
+    &:hover {
+      color: rgb(0, 217, 255);
+    }
+  }
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #d31027 0%,
+    #ea384d 51%,
+    #d31027 100%
+  );
+  
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  &:hover {
+    background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  }
+}
+
+
+.nav-link-groupomania {
+  color: white;
+  &:hover {
+    color: rgb(0, 217, 255);
+  }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#navbarDropdown {
+  background-image: linear-gradient(
+    to right,
+    #005c97 0%,
+    #363795 51%,
+    #005c97 100%
+  );
+  text-align: center;
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  &:hover {
+    background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  }
+}
+
+
