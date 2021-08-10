@@ -14,6 +14,6 @@
   Frontend
 
     Ouvrir le terminal dans le dossier frontend et exécuter npm install pour installer les dépendances.
-    Intallez Sass : npm i --s node-sass@4.14.1
+    Installer Sass : npm i --s node-sass@4.14.1
     Accéder au serveur de développement npm start
     Rendez-vous à l'adresse suivante : http://localhost:3000
